@@ -11,19 +11,67 @@
 <body>
      <!-- aula 27/0902022 -->
      <!-- inicio do menu responsivo -->
-    <header id="header"
-      <a id="logo" href="index.html"><img src="./img/senai_small.jpg" alt="logo LCstore"</a>
+    <header id="header">
+      <a id="logo" href="index.html"><img src="." alt="logo LCstore"</a>
       <nav id="nav">
           <button arial-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria aria-expanded="false">
              <span id="hamburguer"></span>
           </button>
-           <ul id="menu" role="menu"
+           <ul id="menu" role="menu">
               <li><a class"linkmenu" href="index.html">home</a></li>
-              <li><a class"linkmenu" href="index.html">home</a></li>
-              <li><a class"linkmenu" href="index.html">home</a></li>
+              <li><a class"linkmenu" href="index.html">contatos</a></li>
+              <li><a class"linkmenu" href="index.html">produtos</a></li>
+              <li><a class"linkmenu" href="index.html">jogos</a></li>
           </ul>
       </nav>
     </header>
     <!-- fim do menu repositorio -->
+
+    <!-- inicio do caroucel pagina principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="500">
+                  <img src="./img/slide_03.jpg"
+                  class="d-block w-100"
+                  alt="">
+             </div>
+         </div>
+     </div>
+    <div class="carousel-inner">
+        <div class="carousel-item" data-bs-interval="1000">
+               <img src="./img/slide_02.jpg"
+               class="d-block w-100"
+               alt="">
+         </div>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item">
+               <img src="./img/slide_02.jpg"
+               class="d-block w-100"
+               alt="">
+         </div>
+    </div>
+    <button
+         class="carousel-control-prev"
+         data-bs-target="#carouselExampleInterval"
+         type="button"
+         data-bs-slide="prev">
+
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">anterior</span>
+    </button> 
+    <button
+         class="carousel-control-prev"
+         data-bs-target="#carouselExampleInterval"
+         type="button"
+         data-bs-slide="next">
+
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">proximo</span>
+    </button> 
+
 </body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
 </html>

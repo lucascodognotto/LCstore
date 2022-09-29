@@ -13,10 +13,10 @@ background: rgba(0, 0, 0, 0.05);
 }
 #logo img {
 float: left;
-height: 35px;
+height: 62px;
 position: relative;
-top: 10px;
-left: 10px;
+top: 4px;
+left: 18px;
 }
 #header {
 width: 100%;
@@ -33,7 +33,7 @@ background: #e7e7e7;
 #menu {
 display: flex;
 list-style: none;
-gap: 0.5rem;
+gap: 2.0rem;
 }
 #btn-mobile {
     display: none;
