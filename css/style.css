@@ -1,40 +1,83 @@
 /* aula 27/09/2022 - aplicando definições em CSS - projeto LCstore */
 body, ul {
-margin: 0px;
-padding: 0px;
+   margin: 0px;
+   padding: 0px;
 }
 a {
-color: black;
-text-decoration: none;
-font-family: sans-serif;
+   color: black;
+   text-decoration: none;
+   font-family: sans-serif;
 }
 a:hover{
-background: rgba(0, 0, 0, 0.05);
+   background: rgba(0, 0, 0, 0.05);
 }
 #logo img {
-float: left;
-height: 62px;
-position: relative;
-top: 4px;
-left: 18px;
+   float: left;
+   height: 50px;
+   position: relative;
+   top: 4px;
+   left: 18px;
 }
 #header {
-width: 100%;
-position: fixed; /* Adicionando Position e Z-Index */
-z-index: 90;
-box-sizing: border-box;
-height: 70px;
-padding: 1rem;
-display: flex;
-align-items: center;
-justify-content: space-between;
-background: #e7e7e7;
+   width: 100%;
+   position: fixed; /* Adicionando Position e Z-Index */
+   z-index: 90;
+   box-sizing: border-box;
+   height: 70px;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #e7e7e7;
 }
 #menu {
-display: flex;
-list-style: none;
-gap: 2.0rem;
+   display: flex;
+   list-style: none;
+   gap: 2.0rem;
 }
 #btn-mobile {
-    display: none;
+   display: none;
+} 
+#carouselExempleInterval {
+   position: relative;
+   z-index: 10;
+   gap: 0.5rem;
+}
+#carouselExempleInterval img {
+   height: auto;
+}
+
+/* css configutando banner */
+
+.section-banner-home {
+   width: 100%;
+   height: 500px;
+   padding: 50px;
+   margin: 30px;
+   background-color: blueviolet;
+}
+.section-banner-home img {
+    height: 400px;
+}
+.section-banner-home .texto-banner {
+   margin-top: 30px;
+   font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {
+   font-size: 30px;
+   width: 60%;
+   font-weight: 50px;
+   padding-bottom: 20px; /* margem interna do texto*/
+}
+.section-banner-home .texto-banner p {
+   font-size: 15px;
+   margin-bottom: 20px; /* margem externa abaixa do texto */
+   color: rgb(0, 0, 0);
+}
+.section-banner-home .texto-banner a {
+   color: rgb(36, 193, 204);
+   text-decoration: none;
+   background-color: aliceblue;
+   padding: 4px 14px;
+   font-size: 15px;
 }
