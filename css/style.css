@@ -8,14 +8,14 @@ a {
    text-decoration: none;
    font-family: sans-serif;
 }
-a:hover{
+#header #menu a:hover{
    background: rgba(0, 0, 0, 0.05);
 }
 #logo img {
    float: left;
    height: 50px;
    position: relative;
-   top: 4px;
+   top: 5px;
    left: 18px;
 }
 #header {
@@ -23,7 +23,7 @@ a:hover{
    position: fixed; /* Adicionando Position e Z-Index */
    z-index: 90;
    box-sizing: border-box;
-   height: 70px;
+   height: 105px;
    padding: 1rem;
    display: flex;
    align-items: center;
@@ -54,7 +54,7 @@ a:hover{
    height: 500px;
    padding: 50px;
    margin: 30px;
-   background-color: blueviolet;
+   background-color: rgb(153, 0, 255);
 }
 .section-banner-home img {
     height: 400px;
@@ -81,3 +81,31 @@ a:hover{
    padding: 4px 14px;
    font-size: 15px;
 }
+/* css destaque */
+.destaque h2 {
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+}
+.destaque p {
+   width: 77%;
+   text-align: center;
+   font-size: 14px;
+   margin: 30px auto;
+}
+.destaque figcaption {
+   font-size: 13px;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+}
+.destaque a {
+   justify-content: center;
+   display: flex;
+   text-decoration: none;
+   color: aqua;
+   font-size: 18px;
+   font-weight: bold;
+   margin: 30px 0;
+}
+/* fim css destaque */
