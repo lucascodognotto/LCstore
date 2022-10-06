@@ -151,3 +151,26 @@ a {
    margin: 14px auto 50px;
 }
 /* fim css galeria */
+/* inicio css footer */
+.rodape {
+   padding: 50px 50px 0;
+}
+.rodape .info-contato p {
+   margin: 0px
+}
+.rodape a {
+   text-decoration: none;
+   color: #000;
+   font-size: 13px;
+}
+.rodape a:hover {
+   font-weight: bold;
+}
+.rodape .redes-sociais img {
+   width: 45px;
+   height: 40px;
+}
+.rodape p.direitos {
+   text-align: center;
+   margin-top: 40px;
+}
