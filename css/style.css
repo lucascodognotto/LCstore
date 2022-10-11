@@ -13,7 +13,7 @@ a {
 }
 #logo img {
    float: left;
-   height: 50px;
+   height: 75px;
    position: relative;
    top: 5px;
    left: 18px;
@@ -54,7 +54,7 @@ a {
       width: 15em;
       top: 70px;
       right: 0px;
-      background: rgb(10, 9, 9);
+      background: rgb(255, 255, 255);
       transition: 0.6;
       z-index: 1000;
       height: 0px;
@@ -66,7 +66,7 @@ a {
       padding-top: 30px;
       padding-bottom: 0px;
       margin: 0 1rem;
-      border-bottom: 2px solid rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(59, 59, 59);
    }
    #nav.active #menu {
       height: calc(100vh - 70px); /* em px é o tamanha da faixa do menu */
@@ -98,7 +98,7 @@ a {
       position: relative;
    }
    #nav.active #hamburger {
-      border-top-color: #000000;
+      border-top-color: transparent;
    }
    #nav.active #hamburger::before {
       transform: rotate(135deg);
@@ -116,7 +116,7 @@ a {
    height: 500px;
    padding: 50px;
    margin: 30px;
-   background-color: rgb(153, 0, 255);
+   background-color: rgb(154, 0, 243);
 }
 .section-banner-home img {
     height: 400px;
@@ -137,9 +137,9 @@ a {
    color: rgb(0, 0, 0);
 }
 .section-banner-home .texto-banner a {
-   color: rgb(36, 193, 204);
+   color: rgb(0, 0, 0);
    text-decoration: none;
-   background-color: aliceblue;
+   background-color: rgb(153, 0, 255);
    padding: 4px 14px;
    font-size: 15px;
 }
