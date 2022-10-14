@@ -20,7 +20,7 @@ a {
 }
 #header {
    width: 100%;
-   position: fixed; /* Adicionando Position e Z-Index */
+   position: relative; /* Adicionando Position e Z-Index */
    z-index: 90;
    box-sizing: border-box;
    height: 105px;
@@ -258,12 +258,12 @@ a {
 
 .embed-container {
    position: relative;
-   padding-bottom: 56,25%;
+   padding-bottom: 300px;
    height: 100px;
    max-width: 100%;
    margin-top: 30px;
    margin-bottom: 30px;
-   padding-top: 100px;
+   padding-top: 0;
 }
 .embed-container iframe, .embed-container object, .embend-container embed {
    position: relative;
@@ -272,3 +272,4 @@ a {
    width: 100%;
    height: 100%;
 }
+
