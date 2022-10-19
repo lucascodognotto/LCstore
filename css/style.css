@@ -129,7 +129,6 @@ a {
       box-shadow: grey 0.5em 0.5em 0.3em;
    }
    .embed-container iframe {
-      padding-top: 20px;
       margin-top: 20px;
    }
 }
@@ -287,6 +286,5 @@ a {
    box-shadow: grey 0.5em 0.5em 0.3em;
 }
 .embed-container iframe {
-   padding-top: 20px;
    margin-top: 20px;
 }
