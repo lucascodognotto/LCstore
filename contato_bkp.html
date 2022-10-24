@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script type="text/javascript" src="./js/jquery-1.10.2.min.js" ></script>
     <link rel="shortcut icon" href="./img/brazil-.ico">
      <title> www.LCsore.com.br </title>
 </head>
@@ -41,59 +40,22 @@
                               </section>
                           <!-- Fim da tag section com o texto de destaque-->
                           <!-- inicio formulario -->
-                    <div class="col-md-6">
-                      <div class="well well-sm">
-                        <form class="form-horizontal" method="post">
-                           <fieldset>
-                              <legnd class="text-left header">Preencha suas informações!</legend>
-                              <div class="form-group">
-                                 <div class="col-md-10 col-md-offset-1">
-                                    <input id="fname" name="name" type="text" placeholder="insira seu primeiro nome" class="form-control" required>
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="col-md-10 col-md-offset-1">
-                                    <input id="lname" name="name" type="text" placeholder="insira o seu ultimo nome" class="form-control" required>
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="col-md-10 col-md-offset-1">
-                                    <input id="email" name="name" type="email" placeholder="insira seu email" class="form-control" required>
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="col-md-10 col-md-offset-1">
-                                    <input id="phone" name="phone" type="text" placeholder="insira seu telefone" class="form-control" required>
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="col-md-10 col-md-offset-1">
-                                    <textarea id="message" name="message" placeholder="insira sua mensagem que retornaremos em até 2 dias úteis" class="form-control" required></textarea>
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="col-md-12 text-left">
-                                    <button type="submit" class="formbutton">Enviar</button>
-                                 </div>
-                              </div>
-                           </fieldset>
-                        </form>
-                      </div>
-                    </div>
-               <!-- fim formulario-->]
-               <div class="col-md-6">
-                  <div>
-                     <div class="panel panel-default">
-                        <div class="text-center header">Onde estamos localizado</div>
-                        <div class="panel-body text-center">
-                           <h4>Endereço</h4>
-                           <div> avenida pedro ferreira machado, 200 <br />
-                              Centro, São Paulo - SP - CEP: 12345-000 </div>
+                     <div class="col-md-4">
+                        <div class="form_main">
+                           <h4 class="heading"><strong>Contato</strong>Expresso <span></span></h4>
+                           <div class="form">
+                              <form action="#" method="post" id="contactFrm" name="contactFrm">
+                                    <input type="text" required="" placeholder="por favor, insira o nome completo" value="" name="name" class="txt"> 
+                                    <input type="text" required="" placeholder="por favor, insira o seu telefone" value="" name="mob" class="txt"> 
+                                    <input type="text" required="" placeholder="por favor, insira o seu email" value="" name="email" class="txt"> 
+
+                                    <textarea placeholder="insira sua mensagem" name="mess" type="text" class="text_3" ></textarea>
+                                    <input type="submit" value="submit" name="submit" class="txt2">
+                              </form>
+                           </div>
                         </div>
-                     <div id="map1" class="map"></div>
-                  </div>
-               </div>
-             </div>
+                     </div>
+               <!-- fim formulario-->]
                <!-- inicio footer -->
                <footer class="rodape">
                   <div class="container">
@@ -109,7 +71,7 @@
                         <div class="info-contato">
                               <p>email:</p>
                               <p><a href="mailto : codognottolucas@gmail.com"> codognottolucas@gamil.com"</a></p><br>
-                              <p> avenida pedro ferreira machado, 200</p><br>
+                              <p> avenida pedro ferreira machado 200</p><br>
                               <p> 15 98813-9183</p>
                         </div>
                      </div>
@@ -138,6 +100,7 @@
                   </div>
                </footer>
                <!-- fim texto galeria -->
+
           </div>
      </div>  
  </div>
@@ -147,9 +110,5 @@
 <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 
 <script src="./js/script_menu.js"></script>
-
-<script type="text/javascript" src="./js/map.js"></script>
-
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 </html>
