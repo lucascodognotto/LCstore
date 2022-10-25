@@ -5,7 +5,7 @@ jQuery(function ($) {
             center: myLocation,
             zoom: 16
         };
-        var marker = new google.maps.marker({
+        var marker = new google.maps.Marker({
             position: myLocation,
             title: "Localização"
         });
